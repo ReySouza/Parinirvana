@@ -736,3 +736,17 @@ input[type="checkbox"]:checked + label:after {
 	font-size: 28px;
 	font-weight: bold;
 }
+
+.fade-in {
+   opacity: 0;
+   animation: fadeInAnimation 1s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
