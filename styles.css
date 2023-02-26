@@ -736,8 +736,3 @@ input[type="checkbox"]:checked + label:after {
 	font-size: 28px;
 	font-weight: bold;
 }
-
-button img {
-  width: 20px;
-  margin-right: 5px;
-}
